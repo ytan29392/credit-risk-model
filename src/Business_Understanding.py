@@ -1,6 +1,7 @@
 # src/business_understanding.py
 
-section = """
+section = """\
+
 ## Credit Scoring Business Understanding
 
 ### 1. Basel II Accord and Interpretability
@@ -29,8 +30,8 @@ Complex models like Gradient Boosting Machines:
 In regulated environments like banking, there's a strong incentive to start with interpretable models and justify the use of complex models only when significant performance gains are demonstrated and explainability tools are applied.
 """
 
-# Save to README.md (append)
-with open("README.md", "a") as f:
+# Overwrite README.md using UTF-8 encoding
+with open("README.md", "w", encoding="utf-8") as f:
     f.write(section)
 
-print("README.md updated with 'Credit Scoring Business Understanding' section.")
+print("✅ README.md successfully updated with clean content.")
