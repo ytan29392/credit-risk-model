@@ -1,2 +1,6 @@
-.vscode/
+reports/
 venv/
+__pyache__
+*.__pyache__
+data/
+*.csv
