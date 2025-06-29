@@ -2,7 +2,7 @@ pandas
 numpy
 Matplotlib
 seaborn
-scikit-learn
+scikit-learn==1.4.2
 xverse
 woe
 category_encoders
