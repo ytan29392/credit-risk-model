@@ -80,5 +80,5 @@ def run_pipeline():
 
     print("Feature engineering complete. Processed data saved to data/processed/.")
 
-if name == "main":
+if __name__ == "__main__":
     run_pipeline()
