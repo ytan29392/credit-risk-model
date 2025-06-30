@@ -6,3 +6,5 @@ scikit-learn==1.4.2
 xverse
 woe
 category_encoders
+mlflow
+pytest
