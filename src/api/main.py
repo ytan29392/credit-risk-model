@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from src.api.pydantic_models import CustomerInput, RiskPrediction
+from pydantic_models import CustomerInput, RiskPrediction
 import mlflow.pyfunc
 
 app = FastAPI()
