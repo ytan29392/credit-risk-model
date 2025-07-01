@@ -8,3 +8,8 @@ woe
 category_encoders
 mlflow
 pytest
+fastapi
+uvicorn
+mlflow
+pydantic
+flake8
